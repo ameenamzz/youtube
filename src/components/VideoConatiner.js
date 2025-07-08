@@ -7,13 +7,13 @@ import { toggleMenu } from "../utils/appSlice";
 
 const VideoConatiner = () => {
   const [videos, setVideos] = useState([]);
-  const dispath = useDispatch();
-  const sidebar = useSelector((store) => store.app.isMenuOpen);
-  const handleSideBar = () => {
-    if (sidebar === true) {
-      dispath(toggleMenu());
-    }
-  };
+  // const dispath = useDispatch();
+  // const sidebar = useSelector((store) => store.app.isMenuOpen);
+  // const handleSideBar = () => {
+  //   if (sidebar === true) {
+  //     dispath(toggleMenu());
+  //   }
+  // };
   const getVideos = async () => {
     const data = await fetch(YOUTUBE_API_URL);
     const json = await data.json();

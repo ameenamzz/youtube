@@ -19,7 +19,7 @@ const Header = () => {
       <div className="flex">
         <img
           onClick={toggleMenuBar}
-          className="w-7 h-7 cursor-pointer"
+          className="w-7 h-7 curs"
           src="https://icons.veryicon.com/png/o/miscellaneous/linear-icon-45/hamburger-menu-4.png"
           alt="sidebar"
         ></img>

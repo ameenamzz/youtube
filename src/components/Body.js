@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 
 const Body = () => {
     const toggleMenu = useSelector((store) => store.app.isMenuOpen);
-  console.log(toggleMenu);
+
   return (
     <div className='flex'>   
       <SideBar/>

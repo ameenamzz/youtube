@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 const SideBar = () => {
   const toggleMenu = useSelector((store) => store.app.isMenuOpen);
   const location = useLocation();
-  console.log(toggleMenu);
 
   if (!toggleMenu) return null;
   // if (location.pathname === "/watch") return false
